@@ -22,7 +22,7 @@ PCB Layout: Routed a compact, custom circuit board.
 Iterative Design: During the layout phase, I caught and fixed an orientation error with the microcontroller footprint and adjusted the top-layer copper pour clearances to make sure the board would manufacture correctly without short-circuiting.
 
 ## QMK Firmware
-The /Firmware directory contains the configuration files (keymap.c, keyboard.json, config.h, and rules.mk) required to run the system. Because the encoder's push-button is wired directly to its own pin (GP11) instead of the main matrix, I wrote custom C polling logic and internal pull-up initialization so the system reads it correctly.
+The /Firmware directory contains the configuration files (keymap.c, keyboard.json, config.h, and rules.mk) required to run the system.
 
 ## Repository Structure
 /Hardware: The primary KiCad 10.0 design files (.kicad_pro, .kicad_sch, .kicad_pcb).
