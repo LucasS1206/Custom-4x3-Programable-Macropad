@@ -27,6 +27,6 @@ The /Firmware directory contains the configuration files (keymap.c, keyboard.jso
 ## Repository Structure
 /Hardware: The primary KiCad 10.0 design files (.kicad_pro, .kicad_sch, .kicad_pcb).
 
-/Firmware: The custom QMK configuration source files.
+/firmware/testpad: The custom QMK configuration source files.
 
-/Docs: System documentation, including a PDF of the schematic, KiCad 3D board renders, and hardware layout notes.
+/Images: System documentation through images of all parts of the design proccess.
